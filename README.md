@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 ![CodeQL](https://github.com/Mogakamo/nextjs-tutorial/workflows/CodeQL/badge.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/Mogakamo/nextjs-tutorial)
-
+![Maintenance](https://img.shields.io/maintenance/no/2021)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ## Contributors ✨
 
