@@ -23,10 +23,26 @@ export default function Layout({ children }) {
                         siteTitle
                     )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`} 
                 />
-                <meta
-                    
-                />
+                <meta name="og:title" content="{siteTitle}" />
+                <meta name="twitter:card" content="summary_large_image" />
             </Head>
-            {children}</div>
+            <header className={styles.header}>
+                {home ? (
+                    <>
+                        <Image
+                            priority
+                            src="/images/profile.jpg"
+                            className={utilStyles.borderCircle}
+                            height={144}
+                            width={144}
+                            alt={name}
+                        />
+                        <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                    </>
+                ) : (
+                    <></>
+                )}
+            </header>
+        </div>
     )
 }
